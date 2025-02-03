@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(199, 81, 81);
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.hb{
+    background-color: blue;
+    border-color:blue;
+    padding:10px;
+    border-radius: 5px;
+    border-style:solid;
+    color:white;
+}
+.cb{
+    background-color: green;
+    border-color:yellowgreen;
+    padding:10px;
+    border-radius: 5px;
+    border-style:solid;
+    color:white;
+}
+.sb{
+    background-color: orange;
+    border-color:orange;
+    padding:10px;
+    border-radius: 5px;
+    border-style:solid;
+    color:white;
+}
+.ab{
+    background-color: yellowgreen;
+    border-color: green;
+    padding:10px;
+    border-radius: 5px;
+    border-style:solid;
+    color:white;
+}
+
+.paraele{
+    text-align: center;
+}
+.ab:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+.sb:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+.cb:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+.hb:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
